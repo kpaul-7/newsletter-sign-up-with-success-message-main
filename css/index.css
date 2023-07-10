@@ -113,6 +113,7 @@ body{
 .errorFormState{
   background-color: hsla(4, 100%, 67%, 0.541);
   border: var(--primary) solid 1px;
+  color: var(--primary);
 }
 
 .successDiv{
