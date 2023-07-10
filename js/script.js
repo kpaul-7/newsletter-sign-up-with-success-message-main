@@ -11,6 +11,7 @@ const onSubmitHandler = (e) =>{
     if(!inputedEmail || !validateEmail(inputedEmail)){
       document.querySelector("#errorMessage").style.display = "block"
       document.querySelector("#email").classList.add("errorFormState")
+        document.querySelector("#email").classList.add("errorFormState").style.borderColor = "hsl(4, 100%, 67%)"
     }else{
       document.querySelector(".welcome").style.display = "none"
       document.querySelector(".successDiv").style.display = "block"
