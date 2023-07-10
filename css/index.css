@@ -87,7 +87,7 @@ body{
   width: 100%;
   padding: 8px 16px;
   outline: none;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 .form-group input:hover{
     cursor: pointer;
@@ -98,7 +98,7 @@ body{
   background-color: var(--charcoalGrey);
   color: whitesmoke;
   border: none;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 .subscribe:hover{
   cursor: pointer;
