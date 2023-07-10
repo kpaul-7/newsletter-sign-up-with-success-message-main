@@ -88,7 +88,9 @@ body{
   padding: 8px 16px;
   outline: none;
   border-radius: 8px;
-    border-color: var(--gray);
+}
+.form-group .bordercolornormal{
+  border: 1px solid var(--gray);
 }
 .form-group input:hover{
     cursor: pointer;
